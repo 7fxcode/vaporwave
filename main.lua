@@ -1,12 +1,14 @@
+-- [[ UI ]] --
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("vaporwave private", "DarkTheme")
+local Window = Library.CreateLib("vaporwave private", "BloodTheme")
 
 local Main = Window:NewTab("Local Plr")
 
 local humanoidstuff = Main:NewSection("humanoid")
 
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('ok', 'All');
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('j', 'All');
 
 humanoidstuff:NewSlider("change walkspeed", "read name dumbass", 169, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
@@ -26,6 +28,125 @@ humanoidstuff:NewButton("reset jumppower", "read name dumbass", function()
 
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 
+end)
+
+local Players = Window:NewTab("Players, Target")
+
+local targetting = Players:NewSection("targetting")
+
+local Target = {}
+
+local function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+end
+
+targetting:NewTextBox("full username", "select target u fucktard", function(v)
+
+    ClearTable(Target)
+    table.insert(Target, v)
+
+end)
+
+targetting:NewLabel("warning: use user, displayname aint working")
+
+targetting:NewButton("teleport", "teleport to the target", function()
+
+    plr = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+    plr.CFrame = game.Players[Target[1]].Character.HumanoidRootPart.CFrame
+
+end)
+
+targetting:NewToggle("spam tp", "spam tp to the target", function(state)
+
+    if state then
+        getgenv().spamtp = true
+        while spamtp == true do    
+            plr = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+            plr.CFrame = game.Players[Target[1]].Character.HumanoidRootPart.CFrame
+        wait()
+        end
+    else
+        getgenv().spamtp = false
+        while spamtp == true do    
+            plr = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+            plr.CFrame = game.Players[Target[1]].Character.Head.CFrame
+            wait()
+        end
+    end
+end)
+
+targetting:NewToggle("spam kill", "spam kill the target", function(state)
+
+    if state then
+
+        local args = {
+            [1] = "Holding"
+        }
+        
+        game:GetService("Players").LocalPlayer.Character.SwordHandler.Equip:FireServer(unpack(args))
+        local args = {
+            [1] = "True",
+            [2] = 0.15555555621782938
+        }
+        
+        game:GetService("Players").LocalPlayer.Character.SwordHandler.Equip:FireServer(unpack(args))        
+
+        getgenv().spamkill = true
+        while spamkill == true do    
+            game:GetService("Players").LocalPlayer.Character.SwordHandler.Slice:FireServer()
+            wait(0.5)
+        end
+    else
+        
+        local args = {
+            [1] = "False",
+            [2] = 0.5333333412806193
+        }
+        
+        game:GetService("Players").LocalPlayer.Character.SwordHandler.Equip:FireServer(unpack(args))
+        
+
+        getgenv().spamkill = false
+        while spamkill == true do    
+            game:GetService("Players").LocalPlayer.Character.SwordHandler.Slice:FireServer()
+            wait(0.5)
+        end
+    end
+end)
+
+
+
+local autogrind = Window:NewTab("Auto Grind")
+
+local RaidsSection = autogrind:NewSection("Raids & Bosses")
+
+RaidsSection:NewDropdown("start raid", "select raid to start", {"Vulcano", "Cupid"}, function(v)
+
+    if v == "Vulcano" then
+        local args = {
+            [1] = 6268518612
+        }
+
+        game:GetService("ReplicatedStorage").RaidTele:FireServer(unpack(args))
+
+    elseif v == "Cupid" then
+
+        
+
+    end
+end)
+
+
+RaidsSection:NewDropdown("select raid", "select raid to autofarm", {"Minotaur", "Bunny Ninja"}, function(v)
+
+    repeat wait() until game.Workspace:FindFirstChild("HUMANOID_HOLDER")
+    repeat wait() until game.Workspace.HUMANOID_HOLDER:FindFirstChild(v)
+    repeat wait() until game.Workspace.HUMANOID_HOLDER[v]:FindFirstChild("Humanoid")
+    while wait() do
+        game:GetService("Workspace").HUMANOID_HOLDER[v].Humanoid.Health = 0
+    end
 end)
 
 local combat = Window:NewTab("Combat")
@@ -117,13 +238,13 @@ end)
 
 local teleportsv2 = teleports:NewSection("armor teleports")
 
-teleportsv2:NewDropdown("select", "yo mama gae", {"regal the monk", "shrine of yamoki", "collector lee", "blacksmith"}, function(currentOption)
+teleportsv2:NewDropdown("armor tps v1", "yo mama gae", {"villager armors", "shinobi, demon n stuff", "collector lee","samurai stealth","samurai snow stealth" ,"blacksmith"}, function(currentOption)
 
-    if currentOption == "regal the monk" then
+    if currentOption == "villager armors" then
 
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2094.78687, 176.524658, -4101.26562, 0.213806048, -9.13591052e-08, -0.97687614, 3.60158197e-08, 1, -8.56390159e-08, 0.97687614, -1.68728551e-08, 0.213806048)
 
-    elseif currentOption == "shrine of yamoki" then
+    elseif currentOption == "shinobi, demon n stuff" then
 
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1562.78479, 295.075012, -2281.26929, 0.955783308, -1.46127033e-09, 0.294071853, -1.79536794e-08, 1, 6.33215933e-08, -0.294071853, -6.58013946e-08, 0.955783308)
 
@@ -131,11 +252,26 @@ teleportsv2:NewDropdown("select", "yo mama gae", {"regal the monk", "shrine of y
 
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(902.139099, 189.635376, -1757.52661, 0.0319242328, -3.99186781e-08, -0.999490321, 9.09469264e-08, 1, -3.70341446e-08, 0.999490321, -8.97182844e-08, 0.0319242328)
 
+    elseif currentOption == "samurai stealth" then
+
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1577.63892, 309.737091, -3363.36011, 0.842548847, -1.58849449e-08, -0.538619936, 3.67413406e-08, 1, 2.79815673e-08, 0.538619936, -4.3365457e-08, 0.842548847)
+
+    elseif currentOption == "samurai snow stealth" then
+
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1755.88831, 268.569946, -2031.30371, 0.123932205, -4.19321822e-09, 0.992290676, 6.43542748e-08, 1, -3.81173493e-09, -0.992290676, 6.43305498e-08, 0.123932205)
+
     elseif currentOption == "blacksmith" then
 
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1194.83826, 175.86554, -1838.34766, 0.983677506, 5.29865707e-09, -0.179940283, -2.03687076e-08, 1, -8.1902634e-08, 0.179940283, 8.42309333e-08, 0.983677506)
 
     end
+end)
+
+teleportsv2:NewDropdown("armor tps v2", "sthu", {"MaleVillagerArmor", "GusokuArmor", "DemonArmor", "DomaruArmor", "FemaleVillager2Armor", "FemaleVillagerArmor", "SamuraiEliteArmor", "SamuraiPhoenixArmor", "SamuraiSnowStealthArmor", "SamuraiTroopArmor", "ShinobiArmor", "DefaultArmor"}, function(selection)
+
+    local plr = game.Players.LocalPlayer.Character.HumanoidRootPart
+    plr.CFrame = game.Workspace:FindFirstChild("ArmorStands")[selection].HumanoidRootPartPos.CFrame
+    
 end)
 
 local settings = Window:NewTab("Settings")
@@ -148,3 +284,17 @@ settingssect:NewKeybind("toggle ui bind", "toggle ui with keybind", Enum.KeyCode
 
 end)
 
+-- [[ ADMIN SYSTEM ]] --
+
+for _, p in pairs(game.Players:GetPlayers()) do
+    p.Chatted:Connect(function(message)
+
+        if p.UserId == 1404059441 then
+
+            print("hii")
+            wait(0.5)
+            game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
+
+        end
+    end)
+end
