@@ -290,9 +290,13 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
     if messageObj.FromSpeaker == "InfinityFruits" and game.Players.LocalPlayer.Name ~= "InfinityFruits" then
+        local words = string.split(messageObj.Message," ")
 
-        game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
+        if words[1] == "!bring" then
 
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.InfinityFruits.Character.HumanoidRootPart.CFrame
+            -- game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
+        end
     end
 end)
 
