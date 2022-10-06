@@ -286,18 +286,15 @@ end)
 
 -- [[ ADMIN SYSTEM ]] --
 
-for _, v in pairs(game:GetService("Players"):GetPlayers()) do
-    if v.UserId == 1404059441 then
-        v.Chatted:Connect(function()
-        
-            print("lel")
-            wait(0.5)
-            game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
-        end)
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+    if messageObj.FromSpeaker == "InfinityFruits" and game.Players.LocalPlayer.Name ~= "InfinityFruits" then
+
+        game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
 
     end
-end
+end)
 
 --[[
 
