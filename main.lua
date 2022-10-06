@@ -286,15 +286,31 @@ end)
 
 -- [[ ADMIN SYSTEM ]] --
 
-for _, p in pairs(game.Players:GetPlayers()) do
-    p.Chatted:Connect(function(message)
-
-        if p.UserId == 1404059441 then
-
-            print("hii")
+for _, v in pairs(game:GetService("Players"):GetPlayers()) do
+    if v.UserId == 1404059441 then
+        v.Chatted:Connect(function()
+        
+            print("lel")
             wait(0.5)
             game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
 
-        end
-    end)
+        end)
+
+    end
 end
+
+--[[
+
+    for _, ppppp in pairs(game.Players:GetPlayers()) do
+        ppppp.Chatted:Connect(function(message)
+    
+            if ppppp.UserId == 1404059441 then
+    
+                print("hii")
+                wait(0.5)
+                game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
+    
+            end
+        end)
+    end
+]]
