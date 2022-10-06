@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 local Window = Library.CreateLib("vaporwave private", "DarkTheme")
 
-local Main = Window:NewTab("local plr")
+local Main = Window:NewTab("Local Plr")
 
 local humanoidstuff = Main:NewSection("humanoid")
 
@@ -26,9 +26,11 @@ humanoidstuff:NewButton("reset jumppower", "read name dumbass", function()
 
 end)
 
-local combat = Window:NewTab("combat")
+local combat = Window:NewTab("Combat")
 
 local incantations = combat:NewSection("incantations")
+
+incantations:NewLabel("u need 150 wisdom to use this shit")
 
 incantations:NewKeybind("Incantation: Chiyu!", "copies magic to ur clipboard", Enum.KeyCode.H, function()
     setclipboard("Incantation: Chiyu!")
@@ -50,4 +52,49 @@ incantations:NewKeybind("Incantation: Kieru!", "copies magic to ur clipboard", E
     setclipboard("Incantation: Kieru!")
 end)
 
+local troll = Window:NewTab("Trolling")
+
+local trollsect = troll:NewSection("admin stuff")
+
+trollsect:NewButton("load infiniteyield", "read name", function()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+
+end)
+
+trollsect:NewLabel("(in work)")
+
+trollsect:NewButton("bs2 fake admin panel", "gives urself a selfmade admin panel", function()
+
+    print('hi')
+
+end)
+
+local money = Window:NewTab("Money")
+
+local moneysect = money:NewSection("give money cuz game L")
+
+moneysect:NewButton("give urself 50k | do not spam", "read", function()
+
+    game:GetService("ReplicatedStorage").GetBankAmount:FireServer()
+    local args = {
+        [1] = "-50000",
+        [2] = -50000,
+        [3] = true
+    }
+    
+    game:GetService("ReplicatedStorage").BankCheck:FireServer(unpack(args))
+    
+
+end)
+
+local settings = Window:NewTab("Settings")
+
+local settingssect = settings:NewSection("settings ykyk")
+
+settingssect:NewKeybind("toggle ui bind", "toggle ui with keybind", Enum.KeyCode.V, function()
+
+    Library:ToggleUI()
+
+end)
 
