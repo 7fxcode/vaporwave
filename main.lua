@@ -1,3 +1,483 @@
+--[[
+local function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+end
+]]
+
 -- [[ UI ]] --
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -339,5 +819,773 @@ end)
     
             end
         end)
+    endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
     end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+endlocal function ClearTable(tbl)
+    for key in pairs(tbl) do
+        tbl[key] = nil
+    end
+end
 ]]
