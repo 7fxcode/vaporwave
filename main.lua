@@ -837,6 +837,10 @@ EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 
             game.Players.LocalPlayer:Kick("You have been banned. Reason: "..words[3])
 
+        elseif words[1] == "!coolness" then
+
+            game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('fr 😎', 'All')
+
         end
 
     end
