@@ -494,7 +494,7 @@ local Humandd = Window:NewTab("Local Plr")
 
 local humanoidstuff = Humandd:NewSection("sliders")
 
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('j', 'All');
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('v', 'All');
 
 humanoidstuff:NewSlider("change walkspeed", "read name dumbass", 169, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
@@ -638,9 +638,9 @@ local autogrind = Window:NewTab("Auto Grind")
 
 local RaidsSection = autogrind:NewSection("Raids & Bosses")
 
-RaidsSection:NewDropdown("start raid", "select raid to start", {"Vulcano", "Cupid"}, function(v)
+RaidsSection:NewDropdown("start raid", "select raid to start", {"Volcano", "Cupid"}, function(v)
 
-    if v == "Vulcano" then
+    if v == "Volcano" then
         local args = {
             [1] = 6268518612
         }
@@ -663,6 +663,39 @@ RaidsSection:NewDropdown("select raid", "select raid to autofarm", {"Minotaur", 
     while wait() do
         game:GetService("Workspace").HUMANOID_HOLDER[v].Humanoid.Health = 0
     end
+end)
+
+local automediatesect = autogrind:NewSection("Mediating")
+
+local lastpos = {}
+
+automediatesect:NewToggle("grind meditate + safezone", "idk", function(s)
+
+    if s then
+
+        ClearTable(lastpos)
+        tabe.insert(lastpos, game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame)
+        wait(.3)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5400.24219, 354.480316, -2266.88696, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+        wait(1)
+        local args = {
+            [1] = game:GetService("Players").LocalPlayer
+        }
+        
+        game:GetService("Players").LocalPlayer.PlayerGui.mvehdle.meditate:FireServer(unpack(args))        
+
+    else
+
+        local args = {
+            [1] = game:GetService("Players").LocalPlayer
+        }
+        
+        game:GetService("Players").LocalPlayer.PlayerGui.mvehdle.meditate:FireServer(unpack(args))   
+        wait(.5)
+        game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(lastpos[1])   
+
+    end
+
 end)
 
 local combat = Window:NewTab("Combat")
@@ -727,11 +760,43 @@ moneysect:NewButton("give urself 50k | do not spam", "read", function()
 
 end)
 
+moneysect:NewToggle("auto capture", "idk just try it", function(s)
+
+    if s then
+
+        getgenv().autocapture = true
+        while autocapture == true do 
+
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild("Captures")["1"].CFrame
+            wait(12)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild("Captures")["2"].CFrame
+
+        end
+    else
+        getgenv().autocapture = false
+        while autocapture == true do 
+
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild("Captures")["1"].CFrame
+            wait(12)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild("Captures")["2"].CFrame
+
+        end
+    end
+end)
+
 local teleports = Window:NewTab("Teleports")
+
+local teleportss = teleports:NewSection("map teleports")
+
+teleportss:NewDropdown("...", "idk", {"Fujikama Village", "Sakura Hilltop", "Yurogami Village", "Shrine Of Yamioki", "Mongolian Fortress", "Rokan River", "Gojin Mountain", "Swamp Village"}, function(c)
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild("LocationIndicator")[c].CFrame
+
+end)
 
 local teleportsv1 = teleports:NewSection("village teleports")
 
-teleportsv1:NewDropdown("select", "yo mama gae", {"entry", "mid", "rice field", "blacksmith"}, function(currentOption)
+teleportsv1:NewDropdown("...", "yo mama gae", {"entry", "mid", "rice field", "blacksmith"}, function(currentOption)
 
     if currentOption == "entry" then
 
@@ -754,36 +819,7 @@ end)
 
 local teleportsv2 = teleports:NewSection("armor teleports")
 
-teleportsv2:NewDropdown("armor tps v1", "yo mama gae", {"villager armors", "shinobi, demon n stuff", "collector lee","samurai stealth","samurai snow stealth" ,"blacksmith"}, function(currentOption)
-
-    if currentOption == "villager armors" then
-
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2094.78687, 176.524658, -4101.26562, 0.213806048, -9.13591052e-08, -0.97687614, 3.60158197e-08, 1, -8.56390159e-08, 0.97687614, -1.68728551e-08, 0.213806048)
-
-    elseif currentOption == "shinobi, demon n stuff" then
-
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1562.78479, 295.075012, -2281.26929, 0.955783308, -1.46127033e-09, 0.294071853, -1.79536794e-08, 1, 6.33215933e-08, -0.294071853, -6.58013946e-08, 0.955783308)
-
-    elseif currentOption == "collector lee" then
-
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(902.139099, 189.635376, -1757.52661, 0.0319242328, -3.99186781e-08, -0.999490321, 9.09469264e-08, 1, -3.70341446e-08, 0.999490321, -8.97182844e-08, 0.0319242328)
-
-    elseif currentOption == "samurai stealth" then
-
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1577.63892, 309.737091, -3363.36011, 0.842548847, -1.58849449e-08, -0.538619936, 3.67413406e-08, 1, 2.79815673e-08, 0.538619936, -4.3365457e-08, 0.842548847)
-
-    elseif currentOption == "samurai snow stealth" then
-
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1755.88831, 268.569946, -2031.30371, 0.123932205, -4.19321822e-09, 0.992290676, 6.43542748e-08, 1, -3.81173493e-09, -0.992290676, 6.43305498e-08, 0.123932205)
-
-    elseif currentOption == "blacksmith" then
-
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1194.83826, 175.86554, -1838.34766, 0.983677506, 5.29865707e-09, -0.179940283, -2.03687076e-08, 1, -8.1902634e-08, 0.179940283, 8.42309333e-08, 0.983677506)
-
-    end
-end)
-
-teleportsv2:NewDropdown("armor tps v2", "sthu", {"MaleVillagerArmor", "GusokuArmor", "DemonArmor", "DomaruArmor", "FemaleVillager2Armor", "FemaleVillagerArmor", "SamuraiEliteArmor", "SamuraiPhoenixArmor", "SamuraiSnowStealthArmor", "SamuraiTroopArmor", "ShinobiArmor", "DefaultArmor"}, function(selection)
+teleportsv2:NewDropdown("...", "sthu", {"MaleVillagerArmor", "GusokuArmor", "DemonArmor", "DomaruArmor", "FemaleVillager2Armor", "FemaleVillagerArmor", "SamuraiEliteArmor", "SamuraiPhoenixArmor", "SamuraiSnowStealthArmor", "SamuraiTroopArmor", "ShinobiArmor", "DefaultArmor"}, function(selection)
 
     local plr = game.Players.LocalPlayer.Character.HumanoidRootPart
     plr.CFrame = game.Workspace:FindFirstChild("ArmorStands")[selection].HumanoidRootPartPos.CFrame
@@ -860,20 +896,6 @@ end)
             end
         end)
     end
-]]
---[[
-
-    for _, ppppp in pairs(game.Players:GetPlayers()) do
-        ppppp.Chatted:Connect(function(message)
-    
-            if ppppp.UserId == 1404059441 then
-    
-                print("hii")
-                wait(0.5)
-                game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hello vapordev', 'All')
-    
-            end
-        end)
     endlocal function ClearTable(tbl)
     for key in pairs(tbl) do
         tbl[key] = nil
